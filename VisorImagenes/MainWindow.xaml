@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisorImagenes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="700" MinHeight="600" MinWidth="700">
+        Icon="assets/Icono.ico"
+        Title="VisorImagenes" Height="600" Width="700" MinHeight="600" MinWidth="700">
     <DockPanel>
         <DockPanel Margin="7" DockPanel.Dock="Bottom" Background="LightBlue">
             <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Left">Nº de imagenes:10</TextBlock>
