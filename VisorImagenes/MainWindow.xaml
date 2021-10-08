@@ -1,0 +1,45 @@
+﻿<Window x:Class="VisorImagenes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisorImagenes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="700" MinHeight="600" MinWidth="700">
+    <DockPanel>
+        <DockPanel Margin="7" DockPanel.Dock="Bottom" Background="LightBlue">
+            <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Left">Nº de imagenes:10</TextBlock>
+            <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Right" HorizontalAlignment="Right">Diseñado por Pau Sansó</TextBlock>
+        </DockPanel>
+        
+        <Border Width="125" Margin="5,0,10,5" BorderBrush="Black" BorderThickness="3" CornerRadius="3" Background="LightGreen" DockPanel.Dock="Right">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top">
+                    <Button Margin="5">Añadir imagen</Button>
+                    <Button Margin="5">Elimiran imagen</Button>
+                    <Button Margin="5">Eliminar todas</Button>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+                    <Button Margin="5">Rotar</Button>
+                    <Button Margin="5">Recortar</Button>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+        
+        <StackPanel>
+            <TextBlock TextAlignment="Center" FontSize="40" FontFamily="Rubik" >Visor de Imágenes</TextBlock>
+            <WrapPanel>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+                <Image Margin="2" Source="assets/episodioIV.jpg" Width="125"></Image>
+            </WrapPanel>
+        </StackPanel>
+        
+        
+    </DockPanel>
+</Window>
