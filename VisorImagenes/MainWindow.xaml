@@ -8,9 +8,9 @@
         Icon="assets/Icono.ico"
         Title="VisorImagenes" Height="600" Width="700" MinHeight="600" MinWidth="700">
     <DockPanel>
-        <DockPanel Margin="7" DockPanel.Dock="Bottom" Background="LightBlue">
+        <DockPanel LastChildFill="False" Margin="7" DockPanel.Dock="Bottom" Background="LightBlue">
             <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Left">Nº de imagenes:10</TextBlock>
-            <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Right" HorizontalAlignment="Right">Diseñado por Pau Sansó</TextBlock>
+            <TextBlock Padding="15" FontSize="20" DockPanel.Dock="Right">Diseñado por Pau Sansó</TextBlock>
         </DockPanel>
         
         <Border Width="125" Margin="5,0,10,5" BorderBrush="Black" BorderThickness="3" CornerRadius="3" Background="LightGreen" DockPanel.Dock="Right">
